@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Generated certificate outputs and archives
+generated_certificates/
+All_Student_Certificates.pdf
+certificates_bundle.zip
+*.pdf
+*.zip
+
+# Private sample data folder (contains personal rosters, student records, and participant certificates)
+sample_data/
+
+# Temporary and preview images
+test_*_preview.png
+test_rendered_sample*.png
+test_aligned_certificate.png
+
+# Private/one-off generation scripts containing hardcoded student rosters
+generate_all_certificates.py
+generate_final_v3.py
+update_28_members.py
+update_present_members.py
+
+# Operating System & IDE artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
